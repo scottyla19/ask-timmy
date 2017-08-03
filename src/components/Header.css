@@ -1,0 +1,31 @@
+.header {
+  grid-area: header;
+  text-align: center;
+}
+.headerWrapper {
+  display: flex;
+  flex-direction: row wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  border-bottom: 1px solid gray;
+  box-shadow: 0 5px 5px #888888;
+}
+
+.headerLeft {
+  width: 33.3333333%;
+  display: flex;
+  justify-content: flex-start;
+}
+.headerMid {
+  width: 50%;
+}
+.headerRight {
+  width: 33.3333333%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.signInButton {
+  border: green;
+}

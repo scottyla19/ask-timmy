@@ -1,0 +1,11 @@
+.App {
+  display: grid;
+  grid-template-columns: 25% auto;
+  grid-template-rows: 100px auto;
+  grid-template-areas: "header header " "sidebar main";
+}
+a,
+a:visited {
+  text-decoration: none;
+  color: #199ed8;
+}
