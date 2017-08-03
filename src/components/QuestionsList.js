@@ -1,14 +1,11 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import Avatar from "material-ui/Avatar";
-import RaisedButton from "material-ui/RaisedButton";
 import Divider from "material-ui/Divider";
 import { List, ListItem } from "material-ui/List";
 import Subheader from "material-ui/Subheader";
 import Badge from "material-ui/Badge";
 import FontIcon from "material-ui/FontIcon";
 
-const sidebarNavStyle = {};
 class QuestionsList extends Component {
   render() {
     return (
@@ -53,7 +50,7 @@ class QuestionsList extends Component {
               />
             }
             rightIcon={
-              <FontIcon className="material-icons" color="#199ed8">
+              <FontIcon className="material-icons" color="gray">
                 question_answer
               </FontIcon>
             }
@@ -68,7 +65,7 @@ class QuestionsList extends Component {
               />
             }
             rightIcon={
-              <FontIcon className="material-icons" color="#199ed8">
+              <FontIcon className="material-icons" color="gray">
                 question_answer
               </FontIcon>
             }

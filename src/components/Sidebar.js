@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import QuestionsList from "./QuestionsList";
-import RaisedButton from "material-ui/RaisedButton";
 import Divider from "material-ui/Divider";
 
 const sidebarNavStyle = {
@@ -9,14 +8,18 @@ const sidebarNavStyle = {
   display: "flex",
   flexFlow: "column wrap",
   alignItems: "flex-start",
-  paddingLeft: "35%",
-  borderRight: "1px solid gray",
-  boxShadow: "1px 0 2px gray"
+  paddingLeft: "35%"
 };
 class Sidebar extends Component {
   render() {
     return (
-      <div className="sidebar">
+      <div
+        className="sidebar"
+        style={{
+          borderRight: "1px solid gray",
+          boxShadow: "1px 0 2px gray"
+        }}
+      >
         <div className="sidebarNav" style={sidebarNavStyle}>
           <Link to="/">
             <h3> HOME? </h3>

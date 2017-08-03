@@ -1,8 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import Home from "./components/Home";
 import "./App.css";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import injectTapEventPlugin from "react-tap-event-plugin";
 injectTapEventPlugin();
