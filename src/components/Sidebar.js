@@ -22,21 +22,19 @@ class Sidebar extends Component {
       >
         <div className="sidebarNav" style={sidebarNavStyle}>
           <Link to="/">
-            <h3> HOME? </h3>
+            <h3>Go home </h3>
           </Link>
           <Link to="/why">
-            <h3> WHY? </h3>
-          </Link>
-          <Link to="/what">
-            <h3> WHAT? </h3>
+            <h3> Why is this a thing? </h3>
           </Link>
           <Link to="/who">
-            <h3> WHO? </h3>
+            <h3> Who is Timmy? </h3>
           </Link>
         </div>
         <Divider />
 
-        <QuestionsList />
+        <QuestionsList listType="noAnswer" />
+        <QuestionsList listType="publicAnswer" />
       </div>
     );
   }
