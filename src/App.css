@@ -34,3 +34,24 @@ a:visited {
 .main ul.thumbdown {
   list-style-image: url('/images/ic_thumb_down_black_18px.svg');
 }
+.loginForm {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.loginMiddle {
+  margin-left: 15%;
+}
+.emailLogin {
+  width: 200px;
+}
+.providerLogin {
+  width: 250px;
+  margin-left: 20px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.providerLoginBtn {
+  width: 250px;
+}

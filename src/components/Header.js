@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Avatar from "material-ui/Avatar";
-import RaisedButton from "material-ui/RaisedButton";
-
+import LoginDialog from "./LoginDialog";
 import "./Header.css";
 
 class Header extends Component {
@@ -20,12 +19,14 @@ class Header extends Component {
             <h1>Ask Timmy</h1>
           </div>
           <div className="headerRight">
-            <RaisedButton
+            <LoginDialog />
+            {/* <RaisedButton
               label="Login To Ask"
               labelStyle={{ color: "white" }}
               backgroundColor="#199ED8"
               className="signInButton"
-            />
+              onClick={this.login}
+            /> */}
           </div>
         </div>
       </div>
